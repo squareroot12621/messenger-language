@@ -2,7 +2,7 @@
 For more information, see the README.md at
 https://github.com/squareroot12621/messenger-language/blob/main/README.md."""
 
-from .interpreter import *
+from messenger.interpreter import *
 
 if __name__ == '__main__': # Run directly
     formatter = lambda prog: argparse.HelpFormatter(prog, max_help_position=30)
